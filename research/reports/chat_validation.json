@@ -1,0 +1,99 @@
+{
+  "evaluation": "offline_invalid_llm_resilience",
+  "scope": "HTTP completion, source linkage, pressure scope and experimental-label retrieval; not predictive accuracy or safety validation. P snapshots and inspections are temporary test fixtures; UCI sensor data is imported measured data.",
+  "passed": 13,
+  "total": 13,
+  "cases": [
+    {
+      "case": "normal_explanation",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 1
+    },
+    {
+      "case": "normal_followup",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 2
+    },
+    {
+      "case": "normal_pressure_scope",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 2
+    },
+    {
+      "case": "warning_explanation",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 1
+    },
+    {
+      "case": "warning_followup",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 2
+    },
+    {
+      "case": "warning_pressure_scope",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 2
+    },
+    {
+      "case": "missing_explanation",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 1
+    },
+    {
+      "case": "missing_followup",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 2
+    },
+    {
+      "case": "missing_pressure_scope",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 2
+    },
+    {
+      "case": "uci_pump_label_0_no_inspections",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 3
+    },
+    {
+      "case": "uci_pump_label_1_no_inspections",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 3
+    },
+    {
+      "case": "uci_pump_label_2_no_inspections",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 3
+    },
+    {
+      "case": "uci_with_temporary_inspection",
+      "passed": true,
+      "http_status": 200,
+      "response_kind": "source_summary",
+      "source_count": 3
+    }
+  ]
+}

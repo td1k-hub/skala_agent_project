@@ -1,0 +1,11 @@
+{
+  "equipment_id": "P-101",
+  "measurements": {
+    "vibration_mm_s": 4.2,
+    "bearing_temperature_c": 82.0,
+    "suction_pressure_bar": 1.2,
+    "discharge_pressure_bar": 6.5,
+    "flow_m3_h": 92.0,
+    "motor_current_a": 41.0
+  }
+}
